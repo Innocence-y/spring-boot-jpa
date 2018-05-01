@@ -11,6 +11,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
  */
 
 //继承JpaRepository来完成对数据库的操作
-public interface UserRespository extends JpaRepository<User,Integer> {
-
+public interface UserRepository extends JpaRepository<User,Integer> {
+	/**
+	 * integer是主键的类型
+	 */
 }
